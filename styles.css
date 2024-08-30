@@ -147,3 +147,26 @@ a {
 h3 {
   font-size: 1.4em;
 }
+
+.footer {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 32px;
+  background-color: #465d7d;
+}
+
+.icon-div {
+  display: flex;
+  gap: 4px;
+}
+
+.info > p,
+.info > h2 {
+  color: white;
+}
+
+.icon-div > p {
+  color: white;
+}
